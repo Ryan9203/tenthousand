@@ -1,0 +1,223 @@
+@font-face {
+  font-family: "OTEnjoystoriesBA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: "OTEnjoystoriesBA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2")
+      format("woff2"),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff")
+      format("woff"),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf")
+      format("opentype");
+}
+
+
+/* font-family: 'OTEnjoystoriesBa', sans-serif; */
+
+body {
+  color: white;
+  font-family: 'GmarketSansMedium', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+
+  background-color: #5B2386;
+}
+
+header {
+  color: #F5DF4D;
+  font-family: 'OTEnjoystoriesBa', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+
+  padding-top: 160px;
+  padding-bottom: 80px;
+
+  /* flex로 어떻게 처리할 수 있는지.. */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 52px;
+}
+
+.title {
+  position: relative;
+  width: 564px;
+  height: 0;
+  padding-top: 265px;
+}
+
+.title img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  padding-bottom: 100px;
+}
+
+.section01 img {
+  width: 36px;
+  height: 24px;
+}
+
+.section01 p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+
+  padding-bottom: 13px;
+}
+
+.section01 p span {
+  font-family: "GmarketSansBold";
+  font-weight: 700;
+}
+
+.section02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section02 .container {
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.container .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+input {
+  width: 228px;
+  height: 56px;
+  border-radius: 8px;
+  border-style: none;
+}
+
+input::placeholder {
+  color: #BABCBE;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.component {
+  margin: 120px 0px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.component img {
+  margin-left: 7px;
+}
+
+a {
+  padding: 20px 50px;
+  border-radius: 12px;
+  background-color: #F5DF4D;
+
+  text-decoration: none;
+  color: #5B2386;
+  font-family: "GmarketSansBold";
+  font-size: 24px;
+  font-weight: 500;
+
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 15%);
+}
+
+.section03 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.section03 p {
+  text-align: center;
+}
+
+.section03 p strong {
+  font-family: "GmarketSansBold";
+  font-size: 75px;
+  font-weight: 700;
+}
+
+.share-bt {
+  background-color: white;
+  margin-left: 12px;
+}
+
+footer {
+  width: 100%;
+  margin-bottom: 106px;
+
+  font-size: 12px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+footer img {
+  width: 168px;
+  height: 36px;
+}
