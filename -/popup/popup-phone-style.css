@@ -1,0 +1,42 @@
+@media screen and (max-width: 360px) {
+  body {
+    font-size: 14px;
+  }
+
+  article {
+    width: 330px;
+    padding: 40px 45px;
+  }
+
+  header {
+    margin-bottom: 24px;
+  }
+
+  header p span {
+    font-size: 64px;
+  }
+
+  .pc-only {
+    display: none;
+  }
+
+  main {
+    gap: 24px;
+  }
+
+  main img {
+    width: 240px;
+    height: 188px;
+  }
+
+  main a {
+    padding: 20px 44.5px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 4px;
+  }
+
+
+}
